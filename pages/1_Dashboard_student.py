@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import streamlit as st
 from matplotlib import image
 import plotly.express as px
-import seaborn as sns
 df = pd.read_csv('student.csv')
 st.title("Student Dashboard")
 st.image("iris.jpg")
